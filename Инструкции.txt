@@ -1,0 +1,12 @@
+1. Загрузить файлы на свой сервер, файл .htaccess должен находиться в корневой папке.
+2. Импортировать базу данных shorturl.sql или выполнить следующий запрос:
+create database shorturl;
+use shorturl;
+create table urls (
+  id INT not null auto_increment primary_key,
+  originURL varchar(1000) not null,
+  shortURL varchar(50) not null,
+  IP varchar(12) not null,
+  time timestamp
+); 
+3. В файле connection.php изменить значения переменных localhost, user и password на свои данные.

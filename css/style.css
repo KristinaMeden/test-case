@@ -1,0 +1,13 @@
+body{
+    background:url('http://volpuri.ru/phh/42/treugolnik_seryy_risunok_dym_2560x1600.jpg');
+    padding:1% 26%;
+}
+.main-container {
+	background-color:#fcfcfc;
+	border: 1px solid #e7e7e7;
+	padding:15px;
+}
+#container2 {
+    margin-top: 50px;
+    display:table;
+}
